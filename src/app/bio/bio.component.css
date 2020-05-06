@@ -1,0 +1,282 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color:#444349;
+    background-image:url(/assets/images/stardust.png);
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+    font-family: 'Raleway', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    margin:auto; 
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif;  
+    color:#444349;
+    background-color:#abc4ab;
+    padding:0px;
+    height:7vw;
+    border-bottom:0.75vw solid #dcd6f7;
+    width:100%;
+    position:absolute;
+}
+
+#headCont {
+    width:80%;
+    margin-left:10%;
+    height:100%;
+    position:relative;
+}
+
+#headerLeft {
+    margin: 0px;
+    width:30%;
+    height:100%;
+    text-align:center;
+    background-color:#F7F7F2;
+    float:left;
+    font-size:3vw;
+    font-weight:bolder;
+    position:relative;
+}
+
+#headerName {
+    position:absolute;
+    width:100%;
+    padding-top:2vw;
+    padding-bottom:2vw;
+    left:0%;
+}
+
+nav {
+    float:right;
+    position:absolute;
+    height:100%;
+    right:0%;
+}
+
+.navBarLinks {
+    float:left;
+    padding: 2.5vw 1vw 2.5vw 1vw;
+    text-align:center;
+    font-size:2vw;
+    font-weight:bold;
+    transition: background-color 0.5s ease;
+}
+
+#headerName:hover,
+.navBarLinks:hover {
+    background-color:#444349;
+    color:#F7F7F2;
+}
+
+h2 {
+    background-color:#F7F7F2;
+    padding: 3% 3% 3% 3%;
+    color:#444349;
+    border-bottom:0.1vw solid black;
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    font-size:2.5vw;
+    font-weight:bolder;
+}
+
+h4 {
+    font-size:2vw;
+    font-weight:bold;
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    padding:2vw 3% 1vw 3%;
+}
+
+
+ul {
+    font-weight:bold;    
+}
+
+a {
+    color:#444349;
+    text-decoration:none;
+}
+
+#mainBio,
+#bioImage {
+    float:left;
+}
+
+#mainBio { 
+    width:80%;
+    margin: 12vw 10% 17vw 10%;
+    padding:0;
+    background-color:#F7F7F2;
+    color:#444349;
+}
+
+#bioImage {
+    margin:2vw;
+    float:left;
+    max-width:30%;
+    height:auto;
+    padding:auto;
+    transition: background-image 0.3s ease;
+}
+
+#bioText {
+    margin: 1vw;
+    font-size:2vw;
+}
+
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#dcd6f7;
+    margin-top:5vw;
+    padding-bottom:5vw;
+    text-align:center;
+    border-top:0.5vw solid #abc4ab;
+    font-style:italic;
+    font-size:1.5vw;
+    font-family: 'Playfair Display', serif;
+}
+
+#footerText {
+    position: absolute;
+    bottom: 1vw;
+    left: 33.3%;
+    width:33.3%;
+    transition: 0.5s ease;
+}
+
+#footerText:hover {
+    font-weight:bolder;
+}
+
+.footNavImgLeft {
+    height:3vw;
+    margin-top:1.5vw;
+}
+
+.footNavImg {
+    height:3vw;
+    margin-left:4vw;
+    margin-top:1.5vw;
+}
+
+#gitIcon {
+    transition: 0.5s ease;
+}
+
+.border {
+    border:solid #444349 0.2vw;
+}
+
+.portSquares {
+    float: left;
+    width: 80%;
+    margin-top:2vw;
+    margin-bottom:2vw;
+    margin-left:10%;
+    border-style:solid;
+    border-width:0.5vw;
+    border-color:#444349;
+}
+
+.portText {
+    margin-left:3%;
+    margin-right:3%;
+    margin-top:8vw;
+    background-color:#F7F7F2;
+    padding:1vw;
+}
+
+.portLang{
+    padding:1vw;
+    margin:2vw 3% 0 3%;
+    background-color:#F7F7F2;
+}
+
+.portBanners {
+    width: 94%;
+    margin-top:1vw;
+    margin-left:3%;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    text-align:center;
+    color:#444349;
+    font-weight:bold;
+    font-size:2.5vw;
+    background-color:#dcd6f7;
+    transition: 0.3s ease;
+    float:left;
+}  
+
+.portBanners > img {
+    height:2.5vw;
+}
+
+.portInfo > div,
+.portInfo > p,
+.portInfo > a {
+    font-size:2vw;
+}
+
+.portInfo {
+    padding:1vw;
+    float:right;
+}
+
+.portInfo > h1,
+.portInfo > div > h3 {
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    font-weight:bold;
+}
+
+.projectLink,
+.gitLink {
+    margin-top:3vw;
+    margin-left:10%;
+    margin-bottom:2vw;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    background-color:#444349;
+    color:#F7F7F2;
+    width:35%;
+    float:left;
+    text-align:center;
+}
+
+.projectLink:hover,
+.gitLink:hover {
+    background-color:#dcd6f7;
+    color:#444349;
+    transition: background-color 0.5s ease;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0.75vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #444349;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dcd6f7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #abc4ab;
+}
