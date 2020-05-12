@@ -25,4 +25,4 @@ jobs:
         github_access_token: ${{ secrets.SECRET_TOKEN }}
         base_href: /angularPortfolio/
         deploy_branch: master
-#         build_folder: dist/my-project
+        build_folder: dist/my-project
